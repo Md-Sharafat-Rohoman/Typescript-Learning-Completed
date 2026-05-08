@@ -27,3 +27,8 @@ const poorUser = {
 }
 console.log(poorUser.addBalance(20));
 console.log(poorUser.addBalance(50));
+
+
+const array:number[] = [1, 2, 3, 4, 5];
+const sqrtArray = array.map((num:number) : number => num * num);
+console.log(sqrtArray);
