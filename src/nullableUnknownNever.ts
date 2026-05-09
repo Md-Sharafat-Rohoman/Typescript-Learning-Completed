@@ -30,3 +30,9 @@ discountCalculator("100 tk");
 discountCalculator(null);
 
 
+
+
+const throwError = (msg:string) =>{
+    throw new Error('msg')
+}
+console.log(throwError('Error ......'));
